@@ -1,11 +1,11 @@
-# 🛠 MVP: DockTweak
+# MVP: DockTweak
 
 **Goal:**  
 Build the first practical version of DockTweak that can analyze a Dockerfile, generate a lighter and more secure version, and produce a clear report explaining the changes.
 
 ---
 
-## ✅ Scope of the MVP
+## Scope of the MVP
 
 **In this phase we focus on:**
 - **Input:** A single Dockerfile.
@@ -21,7 +21,7 @@ Build the first practical version of DockTweak that can analyze a Dockerfile, ge
 
 ---
 
-## 🧩 Components
+## Components
 
 - **Core Engine:**  
   A backend service that reads the original Dockerfile, applies rules, and generates the optimized version + report.
@@ -34,7 +34,7 @@ Build the first practical version of DockTweak that can analyze a Dockerfile, ge
 
 ---
 
-## ⚙️ Technical Stack (suggested)
+## Technical Stack (suggested)
 
 - Language: Python (FastAPI for the API)
 - Linting/Analysis: Hadolint (called as a subprocess or via wrapper)
@@ -44,7 +44,7 @@ Build the first practical version of DockTweak that can analyze a Dockerfile, ge
 
 ---
 
-## 📦 Deliverables
+## Deliverables
 
 - `optimizer/`: Python package for optimization rules.
 - `api/`: FastAPI project exposing endpoints.
@@ -57,7 +57,7 @@ Build the first practical version of DockTweak that can analyze a Dockerfile, ge
 
 ---
 
-## 🧪 Testing
+## Testing
 
 - Unit tests for each optimization rule.
 - Integration tests covering:
@@ -67,7 +67,7 @@ Build the first practical version of DockTweak that can analyze a Dockerfile, ge
 
 ---
 
-## 🗓 Timeline
+## Timeline
 
 | Week | Task                                      |
 |-----|-------------------------------------------|
@@ -79,7 +79,7 @@ Build the first practical version of DockTweak that can analyze a Dockerfile, ge
 
 ---
 
-## 🌱 Next Steps after MVP
+## Next Steps after MVP
 
 - Support for docker-compose files.
 - Use advanced tools like DockerSlim, Dive.
